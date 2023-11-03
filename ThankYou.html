@@ -32,11 +32,25 @@
         img{
             width:100%;
         }
+        .mobile{
+                 display:none;
+             }
+
+        @media only screen and (max-width: 600px) {
+            .desktop{
+                  display:none;
+            }
+             .mobile{
+                 display:block;
+             }
+        }
+}
 
     </style>
   
 </head>
 <body>
-    <img src="1571f5d1-6de8-4f30-ab72-3dc8d6262b22.jpg">
+    <img src="Bud_ThankYouBanner.png" class="desktop">
+    <img src="Bud_ThankYouBanner_Mobile.png" class="mobile">
 </body>
 </html>
