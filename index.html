@@ -7,14 +7,10 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('set', {
-        'custom_map':
-              {
-                'dimension1': 'source'
-              }
-  });
-    
-      gtag('config', 'G-JRW4K7BDV8',{'source': 'Youtube'}); 
+      gtag('config', 'G-JRW4K7BDV8'); 
+        gtag('event', 'page_view', {
+            'Source':'Youtube'
+});
     </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
